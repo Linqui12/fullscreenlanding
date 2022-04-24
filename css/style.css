@@ -1,0 +1,81 @@
+body {
+  display: block;
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #926239;
+  line-height: 1.6;    
+  
+}
+
+.head-section{
+  height: 100vh;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0px;
+  font-size: 50px;
+  line-height: 1.2;
+  background-image: url(http://traversymedia.com/downloads/assets/beachshowcase.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.head-section>*{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.head-tltle{
+  margin: 0px;
+  padding-top: 250px;
+ display: block;
+ font-size: 2em;
+ 
+ 
+}
+.paragraf{
+  padding: 0px;
+  font-size: 20px;
+}
+ .button {
+  display: inline-block;
+  width: 90px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #926239;
+  border: #926239 1px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  
+}
+.button:hover{
+  text-decoration: none; 
+    color: #fff; 
+    background: #723602;
+}
+.big-article{
+  height: max-content;
+  padding: 20px;
+  display: block;
+  box-sizing: border-box;
+  border: 10px;
+  font-size: 25px;
+}
+.small-article{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 33%;
+  padding: 20px;
+  font-size: 25px;
+  
+}
+.bg-dark{
+  background-color: #926239;
+  color: #fff;
+}
+ .head-section,button{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
